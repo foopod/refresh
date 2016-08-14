@@ -1,0 +1,247 @@
+body{
+    line-height: 1.5;
+    margin: auto;
+    font:1.2em/1.62em sans-serif;
+    padding: 0 2em 0 2em;
+    font-weight: 300;
+}
+
+.more {
+    
+    background-color: darkorange;
+    color: white;
+    padding: 0px 4px 2px 4px;
+    margin:0px 0px 0px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline;
+    position: relative;
+    bottom: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong{
+    font-size: 110%;
+    font-weight: 700;
+    cursor: pointer;
+    color: darkorange;
+}
+
+h1,h2,h3{
+    line-height:1.2em;
+    font-weight: 100;
+}
+
+#bio{
+    padding-bottom: 1em;
+}
+
+h2{
+    text-decoration: underline;
+/*    color: darkorange;*/
+}
+
+.break{
+    margin: auto;
+    border-bottom: 1px #AAA dashed;
+    max-width:15em;
+    padding-top: 1em;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.description{
+    font-style: oblique;
+    padding-right: 32px;
+    display: block;
+}
+
+.date{
+    font-size: 80%;
+    display: inline;
+    clear: both;
+    min-width: 100px;
+    float: left;
+}
+
+input[type=text],input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 26px;
+}
+
+.submit {
+    width: 100%;
+    background-color: darkorange;
+    color: white;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+input[type=submit] {
+    text-align:center;
+    font-size: 26px;
+}
+
+.newEntry{ /** Just in case*/
+    padding:1em;
+    border-radius: 15px;
+    border-color: green;
+    background-color: #EFFFEF;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 2em;   
+}
+
+.header {
+    font-size:46px;
+    margin: 0;
+    font-weight: 100;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.subHeader {
+    font-weight: 100;
+    margin-top: -1.5em;
+}
+
+.footer {
+    color:#a6aeb0;
+    font-size:10px;
+    text-align: center;
+}
+
+.label {
+    float:left;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.error {
+    float:right;
+    color:red;
+}
+
+.contact{
+    text-align: right;
+    cursor: pointer;
+}
+
+
+
+.passwordHint{
+    font-size:18px;  
+    color: gray;
+}
+
+.entryContainer {
+    padding-bottom: 2em;
+}
+
+.entryHeader {
+    line-height:1.2em;
+    font-weight: 800;
+    font-size: 38px;
+    display:inline;
+}
+
+.entryDate { 
+    font-weight: 100;
+    font-size: 28px;
+    float: right;
+}
+
+.entryBody {
+    font-weight: 300;
+}
+
+.inactive{
+    color: #777777;
+}
+
+.active {
+    color: black;
+}
+
+.container {
+    margin:auto;
+    width: auto;
+    text-align:center;
+}
+
+#thePicture {
+    width : 100%;
+    margin: auto;
+    display: block;
+    box-shadow: 10px 10px #ccc;
+}
+
+#sourceCode {
+    color:black;
+    cursor:pointer;
+}
+
+@media screen and (min-width: 500px){
+    .header {
+        font-size: 62px;
+    }
+    
+    .entryContainer {
+/*        padding: 1em;*/
+    }
+    
+    .container {
+        max-width: 20em;   
+    }
+    
+    .description{
+        float: none;
+    }
+    
+    .submit {
+        width: 200px;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 840px){
+    body {
+     max-width:40em;   
+    }
+    
+    .header {
+        font-size: 82px;
+    }
+    
+    
+    .description{border: none;
+        float: right;
+    }
+    
+    .submit {
+        width: 200px;
+        margin: auto;
+        margin-top: 10px;
+    }
+}

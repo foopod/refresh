@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css"
+    </head>
+    <body>
+        <h1 class="header">Hey, I'm <a onclick="showBio()"><strong>Jono</strong></a></h1>
+        <h3 class="subHeader contact" style="text-align:right"><a onclick="showContact()">Want to get in touch?</a></h3>
+        <div class="bodyContainer">
+            <div id="contact" style="display:none;overflow: hidden">
+                <form>
+                    <input type="text" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <input class="submit" type="button" value="Send">
+                </form>
+                <p></p>
+            </div>
+            <div id="bio" style="display:none;overflow: hidden">
+                <h2><span style="color:black;">What's a Jono?</span></h2>
+                <p>I am a CodeClub mentor and an agile software developer at Vodafone. I studied Software engineering at AUT, graduated 2 years ago and have been working at Vodafone ever since.</p><p>
+
+In my spare time I make video games, using a range of different technologies such as Android, iOS, Unity3D and HTML5. I am also part of the New Zealand Game Developers Association and an active member of the indie community.</p>
+            </div>
+            <div style="">
+                <h2 style="display:inline;"><span style="color:black;">Latest Projects</span></h2><a href="#" class="more">+</a>
+                <div class="projectEntry">
+                    <p>
+                        <span class="date">21 July</span>
+                        <span class="title">LockedAway</span>
+                        <span class="description">A text-based game that exploits reverse chronology.</span>
+                        
+                    </p>
+                </div>
+                <div class="projectEntry">
+                    <p>
+                        <span class="date">18 April</span>
+                        <span class="title">Sunset</span>
+                        <span class="description">A HTML5 procedurally generated sunset scene.</span>
+                    </p>
+                </div>
+                <div class="projectEntry">
+                    <p>
+                        <span class="date">12 March</span>
+                        <span class="title">Homage</span>
+                        <span class="description">A mobile game that pays dedication to the classics.</span>
+                    </p>
+                </div>
+<!--
+                <div class="seeMore" style="text-align:center">
+                    <a href="#" class="submit">More Projects
+                    </a>
+                </div>
+-->
+            </div>
+<!--            <div class="break"></div>-->
+            <h3 style="text-align:center;margin:0px;">. &nbsp;  . &nbsp;  .</h3>
+            <div style="">
+                <h2 style="display:inline;"><span style="color:black;">Latest Posts</span></h2><a href="#" class="more">+</a>
+                <div class="projectEntry">
+                    <p>
+                        <span class="date">13 August</span>
+                        <span class="title">Feeling Inspired</span>
+                    </p>
+                </div>
+                <div class="projectEntry">
+                    <p>
+                        <span class="date">16 July</span>
+                        <span class="title">Short Attention Span</span>
+                    </p>
+                </div>
+                <div class="projectEntry">
+                    <p>
+                        <span class="date">6 July</span>
+                        <span class="title">Moving Forward</span>
+                    </p>
+                </div><h3 style="text-align:center;margin:0px;">. &nbsp;  . &nbsp;  .</h3>
+<!--
+                <div class="seeMore" style="text-align:center">
+                    <a href="#" class="submit">More Posts
+                    </a>
+                </div>
+-->
+            </div> 
+            <br>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript">
+            var showBio = function(){
+                $("#bio").slideToggle();
+            };
+            var showContact = function(){
+                $("#contact").slideToggle();
+            };
+        </script>
+    </body>
+</html>
