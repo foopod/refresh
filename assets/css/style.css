@@ -40,7 +40,9 @@ h1,h2,h3{
 #bio{
     padding-bottom: 1em;
 }
-
+.projectEntry{
+    padding-bottom: 0.5em;
+}
 h2{
     text-decoration: underline;
 /*    color: darkorange;*/
@@ -68,7 +70,8 @@ h2{
     display: inline;
     clear: both;
     min-width: 100px;
-    float: left;
+    float: right;
+    text-align: right;
 }
 
 input[type=text],input[type=password], select, textarea {
@@ -206,9 +209,7 @@ input[type=submit] {
         font-size: 62px;
     }
     
-    .entryContainer {
-/*        padding: 1em;*/
-    }
+    
     
     .container {
         max-width: 20em;   
@@ -216,6 +217,11 @@ input[type=submit] {
     
     .description{
         float: none;
+    }
+    
+    .date {
+        float: left;
+        text-align: left;
     }
     
     .submit {
@@ -228,6 +234,10 @@ input[type=submit] {
 @media screen and (min-width: 840px){
     body {
      max-width:40em;   
+    }
+    
+    .projectEntry {
+        padding: 0em;
     }
     
     .header {
