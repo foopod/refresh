@@ -6,8 +6,13 @@ body{
     font-weight: 300;
 }
 
+a {
+    color: darkorange;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 .more {
-    
     background-color: darkorange;
     color: white;
     padding: 0px 4px 2px 4px;
@@ -48,13 +53,6 @@ h2{
 /*    color: darkorange;*/
 }
 
-.break{
-    margin: auto;
-    border-bottom: 1px #AAA dashed;
-    max-width:15em;
-    padding-top: 1em;
-}
-
 .title{
     font-weight: 700;
 }
@@ -74,7 +72,7 @@ h2{
     text-align: right;
 }
 
-input[type=text],input[type=password], select, textarea {
+input[type=text],input[type=password], input[type=email], select, textarea {
     width: 100%;
     padding: 12px 10px;
     margin: 8px 0;
@@ -104,16 +102,6 @@ input[type=submit] {
     font-size: 26px;
 }
 
-.newEntry{ /** Just in case*/
-    padding:1em;
-    border-radius: 15px;
-    border-color: green;
-    background-color: #EFFFEF;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 2em;   
-}
-
 .header {
     font-size:46px;
     margin: 0;
@@ -126,93 +114,12 @@ input[type=submit] {
 .subHeader {
     font-weight: 100;
     margin-top: -1.5em;
-}
-
-.footer {
-    color:#a6aeb0;
-    font-size:10px;
-    text-align: center;
-}
-
-.label {
-    float:left;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
-}
-
-.error {
-    float:right;
-    color:red;
-}
-
-.contact{
-    text-align: right;
-    cursor: pointer;
-}
-
-
-
-.passwordHint{
-    font-size:18px;  
-    color: gray;
-}
-
-.entryContainer {
     padding-bottom: 2em;
-}
-
-.entryHeader {
-    line-height:1.2em;
-    font-weight: 800;
-    font-size: 38px;
-    display:inline;
-}
-
-.entryDate { 
-    font-weight: 100;
-    font-size: 28px;
-    float: right;
-}
-
-.entryBody {
-    font-weight: 300;
-}
-
-.inactive{
-    color: #777777;
-}
-
-.active {
-    color: black;
-}
-
-.container {
-    margin:auto;
-    width: auto;
-    text-align:center;
-}
-
-#thePicture {
-    width : 100%;
-    margin: auto;
-    display: block;
-    box-shadow: 10px 10px #ccc;
-}
-
-#sourceCode {
-    color:black;
-    cursor:pointer;
 }
 
 @media screen and (min-width: 500px){
     .header {
         font-size: 62px;
-    }
-    
-    
-    
-    .container {
-        max-width: 20em;   
     }
     
     .description{
