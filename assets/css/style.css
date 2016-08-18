@@ -61,6 +61,7 @@ h2{
     font-style: oblique;
     padding-right: 32px;
     display: block;
+    text-decoration: underline;
 }
 
 .date{
