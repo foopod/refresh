@@ -53,8 +53,10 @@ h1,h2,h3{
     padding-bottom: 0.5em;
 }
 h2{
+/*
     text-decoration: underline;
-/*    color: darkorange;*/
+    color: darkorange;
+*/
 }
 
 .title{
