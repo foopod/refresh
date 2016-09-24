@@ -50,13 +50,6 @@ h2{
     font-weight: 700;
 }
 
-.description{
-    font-style: oblique;
-    padding-right: 32px;
-    display: block;
-    text-decoration: underline;
-}
-
 .date{
     font-size: 80%;
     display: inline;
@@ -110,10 +103,6 @@ input[type=submit] {
         font-size: 62px;
     }
     
-    .description{
-        float: none;
-    }
-    
     .date {
         float: left;
         text-align: left;
@@ -137,11 +126,6 @@ input[type=submit] {
     
     .header {
         font-size: 82px;
-    }
-    
-    
-    .description{border: none;
-        float: right;
     }
     
     .submit {
